@@ -3,15 +3,15 @@ package entity;
 public class QuestionEntity extends BaseEntity{
 
     String question_text;
-    Byte image;
     Integer test_id;
+    Byte image;
     Integer answer_id;
 
-    public QuestionEntity(Integer id, String question_text, Byte image, Integer test_id, Integer answer_id) {
+    public QuestionEntity(Integer id, String question_text, Integer test_id, Byte image, Integer answer_id) {
         super(id);
         this.question_text = question_text;
-        this.image = image;
         this.test_id = test_id;
+        this.image = image;
         this.answer_id = answer_id;
     }
 

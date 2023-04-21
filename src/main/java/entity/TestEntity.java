@@ -4,17 +4,17 @@ public class TestEntity extends BaseEntity{
 
     String test_name;
     String pass_time;
+    Integer subject_id;
     Boolean if_access;
     String close_date;
-    Integer subject_id;
 
-    public TestEntity(Integer id, String test_name, String pass_time, Boolean if_access, String close_date, Integer subject_id) {
+    public TestEntity(Integer id, String test_name, String pass_time, Integer subject_id, Boolean if_access, String close_date) {
         super(id);
         this.test_name = test_name;
         this.pass_time = pass_time;
+        this.subject_id = subject_id;
         this.if_access = if_access;
         this.close_date = close_date;
-        this.subject_id = subject_id;
     }
 
     public String getTest_name() {

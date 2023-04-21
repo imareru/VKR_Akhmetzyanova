@@ -12,7 +12,7 @@ public class ClassRepository implements IRestRepository<ClassEntity> {
 
     protected final JdbcOperations jdbcOperations;
 
-    private static String selectQuery = "SELECT \"class_id\", \"answer_text\", \"bool_val\"" +
+    private static String selectQuery = "SELECT \"class_id\", \"class_number\"" +
             "FROM \"classes\" " +
             "ORDER BY \"class_id\"";
 
