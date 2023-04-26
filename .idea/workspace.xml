@@ -4,18 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0185a78-c09f-4a77-a8b7-fa52de1e14a3" name="Changes" comment="Some resources were added">
-      <change beforePath="$PROJECT_DIR$/src/main/java/db_scheme/my_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db_scheme/my_sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/AnswerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/AnswerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/QuestionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/QuestionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClassRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ClassRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/AnswerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/AnswerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/QuestionResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/QuestionResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/ResultResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/ResultResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/StudentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/StudentResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/SubjectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/SubjectResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/TeacherResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/TeacherResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resource/TestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/TestResource.java" afterDir="false" />
+    <list default="true" id="c0185a78-c09f-4a77-a8b7-fa52de1e14a3" name="Changes" comment="Controllers were added">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/AnswerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/ResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKR_Akhmetzyanova_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VKR_Akhmetzyanova_back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/RestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AnswerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db_scheme/db_scheme.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/db_scheme/db_scheme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db_scheme/my_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/db_scheme/my_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db_scheme/загруженное.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/db_scheme/загруженное.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/AnswerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/AnswerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ClassEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/ClassEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/QuestionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/QuestionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ResultEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/ResultEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/StudentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/SubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/SubjectEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/TeacherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/TeacherEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/TestEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/entity/TestEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/AnswerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ClassRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/ClassRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IRestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/IRestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/QuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ResultRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/ResultRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/SubjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/SubjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/repository/TestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/AnswerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/AnswerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/BaseResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/BaseResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/ClassResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/ClassResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/QuestionResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/QuestionResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/ResultResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/ResultResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/StudentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/StudentResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/SubjectResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/SubjectResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/TeacherResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/TeacherResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resource/TestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/resource/TestResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,29 +121,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Рената/University/Diploma/DiplomaCode/VKR_BACK/VKR_Akhmetzyanova_back/src/main/java/db_scheme&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;acb9b1c982ebf1c6b86aa2f9f85553fd&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Рената/University/Diploma/DiplomaCode/VKR_BACK/VKR_Akhmetzyanova_back/src/main/java/db_scheme",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "acb9b1c982ebf1c6b86aa2f9f85553fd",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Рената\University\Diploma\DiplomaCode\VKR_BACK\VKR_Akhmetzyanova_back\src\main\java\db_scheme" />
@@ -86,6 +155,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Рената\University\Diploma\DiplomaCode\VKR_BACK\VKR_Akhmetzyanova_back\src\main\java\controller" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="VKR_Akhmetzyanova_back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RestApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +186,8 @@
       <updated>1681327207066</updated>
       <workItem from="1681327208586" duration="13835000" />
       <workItem from="1681565732688" duration="817000" />
-      <workItem from="1682064718963" duration="2839000" />
+      <workItem from="1682064718963" duration="11368000" />
+      <workItem from="1682497814392" duration="3565000" />
     </task>
     <task id="LOCAL-00001" summary="Repositories were added">
       <created>1681376417228</created>
@@ -113,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681385474019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Resources were added">
+      <created>1682067891096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682067891096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Controllers were added">
+      <created>1682071682413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682071682413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repositories were added" />
     <MESSAGE value="Some resources were added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some resources were added" />
+    <MESSAGE value="Resources were added" />
+    <MESSAGE value="Controllers were added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers were added" />
   </component>
 </project>
